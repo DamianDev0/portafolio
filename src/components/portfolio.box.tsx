@@ -24,7 +24,7 @@ const PortfolioBox: React.FC<PortfolioBoxProps> = ({ data }) => {
                 <Link href={urlGithub} target="_blank" className="p-2 transition duration-150 rounded-lg bg-slate-500 hover:bg-slate-500/80">
                     GitHub
                 </Link>
-                <Link href={urlDemo} target="_blank" className="p-2 transition duration-150 rounded-lg bg-slate-500 hover:bg-slate-500/80">
+                <Link href={urlDemo} target="_blank" className="p-2 transition duration-150 rounded-lg bg-secondary hover:bg-secondary">
                     Demo
                 </Link>
             </div>
