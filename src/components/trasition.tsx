@@ -23,3 +23,5 @@ export const MotionTransition = (props: MotionTransitionProps) => {
       </motion.div>
     )
 }
+
+export default MotionTransition

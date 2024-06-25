@@ -1,5 +1,10 @@
 import type { Metadata } from "next";
 import { Inter, Urbanist } from "next/font/google"; // Added Urbanist
+
+import 'swiper/css'
+import'swiper/css/scrollbar'
+import'swiper/css/pagination'
+
 import "./globals.css";
 
 import Navbar from "@/components/navbar";
